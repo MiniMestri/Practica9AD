@@ -1,38 +1,37 @@
 //Variable global
-var edad = 45;
+var EDAD_GLOBAL = 45;
 console.log("Tu edad es de:");
-console.log(edad);
+console.log(EDAD_GLOBAL);
 
 //Variable local
-let edad = 45;
-edad = 46;
-console.log("Tu edad es de: "+edad+" años");
+let EDAD_LOCAL = 45;
+EDAD_LOCAL = 46;
+console.log("Tu edad es de: "+EDAD_LOCAL+" años");
 
 //Variable constante
-const EDAD = 45;
-EDAD = 46;
-console.log("Tu edad es de: "+EDAD+" años");
+const EDAD_CONST = 45;
+console.log("Tu edad es de: "+EDAD_CONST+" años");
 
 //Encadenamiento 
-var edad = 45;
-console.log("Tu edad es de: "+edad+" años");
+var EDAD_ENCADENADA = 45;
+console.log("Tu edad es de: "+EDAD_ENCADENADA+" años");
 
 //Incrementos
-var edad = 45;
-console.log("Tu edad es de: "+edad+" años");
-edad++;
-console.log("Tu edad es de: "+edad+" años");
-edad--;
-console.log("Tu edad es de: "+edad+" años");
+var EDAD_INC = 45;
+console.log("Tu edad es de: "+EDAD_INC+" años");
+EDAD_INC++;
+console.log("Tu edad es de: "+EDAD_INC+" años");
+EDAD_INC--;
+console.log("Tu edad es de: "+EDAD_INC+" años");
 
 //Operadores abreviados
-var edad = 45;
-console.log("Tu edad es de: "+edad+" años");
-edad += 20; 
-console.log("Tu edad es de: "+edad+" años");
-edad -= 5;
-console.log("Tu edad es de: "+edad+" años");
-edad *= 2;
-console.log("Tu edad es de: "+edad+" años");
-edad /= 5;
-console.log("Tu edad es de: "+edad+" años");
+var EDAD_ABRE = 45;
+console.log("Tu edad es de: "+EDAD_ABRE+" años");
+EDAD_ABRE += 20; 
+console.log("Tu edad es de: "+EDAD_ABRE+" años");
+EDAD_ABRE -= 5;
+console.log("Tu edad es de: "+EDAD_ABRE+" años");
+EDAD_ABRE *= 2;
+console.log("Tu edad es de: "+EDAD_ABRE+" años");
+EDAD_ABRE /= 5;
+console.log("Tu edad es de: "+EDAD_ABRE+" años");
